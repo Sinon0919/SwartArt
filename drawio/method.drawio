@@ -432,8 +432,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="axp843GIbhr3MXgZPMB7-148" value="Good image&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="721.25" width="103" height="40" as="geometry" />
+        <mxCell id="axp843GIbhr3MXgZPMB7-148" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;(a) Contrastive Learning&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="-290" width="215.04" height="55" as="geometry" />
         </mxCell>
         <mxCell id="axp843GIbhr3MXgZPMB7-162" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1431.73" y="315.60999999999996" width="184.77" height="105.11" as="geometry" />
@@ -575,6 +575,15 @@
         </mxCell>
         <mxCell id="axp843GIbhr3MXgZPMB7-220" value="&lt;span&gt;Control Net&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1423.22" y="500.77" width="100.02" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axp843GIbhr3MXgZPMB7-221" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;(b) Contrastive Learning&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="537.5" width="215.04" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="axp843GIbhr3MXgZPMB7-222" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;(c) Training Diffusion Model&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1576.23" y="-295" width="267.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="axp843GIbhr3MXgZPMB7-223" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;(d) Training Control Net&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1619.75" y="542.5" width="215.04" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
