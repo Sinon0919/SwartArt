@@ -13,19 +13,19 @@
         <mxCell id="UJcotNv4QdiNj1YnUkx0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#337ab7;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="Edit Prompt&lt;br&gt;(Text Instruction)" vertex="1">
           <mxGeometry height="60" width="200" x="600" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="UJcotNv4QdiNj1YnUkx0-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#e67e22;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;Time Encoder&lt;/b&gt;&lt;br&gt;(Formula 4-1)&lt;br&gt;f_t = Enc(t)" vertex="1">
+        <mxCell id="UJcotNv4QdiNj1YnUkx0-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#e67e22;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;Time Encoder&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="150" x="150" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="UJcotNv4QdiNj1YnUkx0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#e67e22;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;CLIP Text Encoder&lt;/b&gt;&lt;br&gt;(ViT-L/14)&lt;br&gt;f_p = CLIP(prompt)" vertex="1">
+        <mxCell id="UJcotNv4QdiNj1YnUkx0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#e67e22;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;CLIP Text Encoder&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="200" x="600" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="UJcotNv4QdiNj1YnUkx0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ccff;strokeColor=#9b59b6;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;Feature Fusion Layer&lt;/b&gt;&lt;br&gt;(Concat / Element-wise Add)&lt;br&gt;f_fuse = [f_t; f_p]" vertex="1">
+        <mxCell id="UJcotNv4QdiNj1YnUkx0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ccff;strokeColor=#9b59b6;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;Feature Fusion Layer&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="250" x="375" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="UJcotNv4QdiNj1YnUkx0-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#e74c3c;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;Linear Fitting Layer&lt;/b&gt;&lt;br&gt;Linear → ReLU/Sigmoid&lt;br&gt;w = Linear(f_fuse)" vertex="1">
+        <mxCell id="UJcotNv4QdiNj1YnUkx0-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#e74c3c;strokeWidth=1;align=center;verticalAlign=middle;fontSize=14" value="&lt;b&gt;Linear Fitting Layer&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="250" x="375" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="UJcotNv4QdiNj1YnUkx0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;strokeWidth=2;align=center;verticalAlign=middle;fontSize=16;fontWeight=bold" value="&lt;b&gt;Dynamic Weight w&lt;/b&gt;&lt;br&gt;(For Feature Modulation)" vertex="1">
+        <mxCell id="UJcotNv4QdiNj1YnUkx0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;strokeWidth=2;align=center;verticalAlign=middle;fontSize=16;fontWeight=bold" value="&lt;b&gt;Dynamic Weight w&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="425" y="570" as="geometry" />
         </mxCell>
         <mxCell id="UJcotNv4QdiNj1YnUkx0-9" edge="1" parent="1" source="UJcotNv4QdiNj1YnUkx0-2" style="endArrow=block;html=1;strokeColor=#333;strokeWidth=1.5" target="UJcotNv4QdiNj1YnUkx0-4" value="">
