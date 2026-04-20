@@ -217,9 +217,6 @@
         <mxCell id="axp843GIbhr3MXgZPMB7-76" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="48.76" width="149.79" x="1091.0000000000002" y="-255.62" as="geometry" />
         </mxCell>
-        <mxCell id="axp843GIbhr3MXgZPMB7-77" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;solo,1boy,upper body...&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="103" x="1114.3999999999999" y="-251.24" as="geometry" />
-        </mxCell>
         <mxCell id="axp843GIbhr3MXgZPMB7-78" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -476,7 +473,10 @@
           <mxGeometry height="48.76" width="149.79" x="1162.87" y="170.62" as="geometry" />
         </mxCell>
         <mxCell id="OXLgROPR5uKD4xWGRwVD-9" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;solo,1boy,upper body...&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="103" x="1186.2699999999995" y="175" as="geometry" />
+          <mxGeometry height="40" width="133.73" x="1169.48" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="axp843GIbhr3MXgZPMB7-77" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;solo,1boy,upper body...&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="145.6" x="1093.1000000000001" y="-250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
